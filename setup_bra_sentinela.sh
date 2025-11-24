@@ -85,18 +85,6 @@ echo "👤 Adicionando usuário ao grupo docker..."
 usermod -aG docker "$SUDO_USER"
 
 # =============================
-# CLONAR O PROJETO (O USUÁRIO EDITA AQUI)
-# =============================
-PROJECT_DIR="/home/$SUDO_USER/bra-sentinela"
-
-if [[ ! -d "$PROJECT_DIR" ]]; then
-    echo "🔄 Clonando projeto BRA-SENTINELA..."
-    sudo -u "$SUDO_USER" git clone https://github.com/guiguiiand/bra-sentinela.git"$PROJECT_DIR"
-else
-    echo "📁 Projeto já existe em $PROJECT_DIR"
-fi
-
-# =============================
 # INSTALA DEPENDÊNCIAS DO FRONT-END
 # =============================
 echo "🟦 Instalando dependências do front-end..."
