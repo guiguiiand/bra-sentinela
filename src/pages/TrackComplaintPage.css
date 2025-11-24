@@ -1,0 +1,141 @@
+.track-page-container {
+    max-width: 800px;
+    margin: 20px auto;
+    color: #E0E0E0;
+    background-color: #2D2D2D;
+    border-radius: 8px;
+    padding: 30px;
+    border: 1px solid #444; /* Borda sutil */
+    box-sizing: border-box;
+}
+
+.track-page-container .page-header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.track-page-container .page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.track-page-container .page-header p {
+    font-size: 1.1rem;
+    color: #C0C0C0;
+}
+
+.track-form {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.track-form .form-group {
+    flex: 1;
+    margin: 0;
+}
+
+.track-form .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #C0C0C0;
+}
+
+.track-form .form-group input {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #E0E0E0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    height: 48px;
+}
+
+
+.track-form .cta-button {
+    background-color: #D32F2F;
+    color: white;
+    padding: 0 24px; /* Padding horizontal */
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    text-align: center;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.track-form .cta-button:hover:not(:disabled) {
+    background-color: #B71C1C;
+}
+
+.track-form .cta-button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+.track-result-card {
+    background-color: #1E1E1E;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.track-result-card h3 {
+    font-size: 1.5rem;
+    color: #FFF;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 15px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+.result-item strong {
+    display: block;
+    font-size: 0.9rem;
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.result-item span,
+.result-item p {
+    font-size: 1.1rem;
+    color: #E0E0E0;
+}
+
+.result-item p {
+    line-height: 1.6;
+}
+
+.status-badge {
+    background-color: #D32F2F;
+    color: #FFF;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.message-box {
+    background-color: #333;
+    border-left: 4px solid #D32F2F;
+    padding: 15px;
+    border-radius: 4px;
+    font-style: italic;
+}
+
+.track-result.alert-box.error {
+    margin-top: 20px;
+    text-align: center;
+}

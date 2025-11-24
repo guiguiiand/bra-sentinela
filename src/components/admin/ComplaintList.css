@@ -1,0 +1,106 @@
+.complaint-list-card {
+    background-color: var(--color-white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-md);
+}
+
+.complaint-list-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: 1rem;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.complaint-table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.complaint-table th,
+.complaint-table td {
+    padding: 1rem 1rem;
+    font-size: 0.875rem;
+    vertical-align: middle;
+}
+
+.complaint-table thead tr {
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.complaint-table th {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
+
+.complaint-table tbody tr {
+    border-bottom: 1px solid var(--color-border-light);
+}
+.complaint-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.complaint-table td[data-label="Protocolo"] {
+    font-weight: 500;
+    color: var(--color-text-primary);
+}
+
+.empty-row {
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--color-text-secondary);
+}
+
+.complaint-list-footer {
+    margin-top: 1rem;
+    text-align: right;
+}
+.complaint-list-footer a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-blue-600);
+    text-decoration: none;
+}
+.complaint-list-footer a:hover {
+    color: var(--color-blue-700);
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 9999px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.status-blue {
+    background-color: var(--color-blue-light-bg);
+    color: var(--color-blue-dark-text);
+}
+.status-yellow {
+    background-color: var(--color-yellow-light-bg);
+    color: var(--color-yellow-dark-text);
+}
+.status-green {
+    background-color: var(--color-green-light-bg);
+    color: var(--color-green-dark-text);
+}
+.status-red {
+    background-color: var(--color-red-light-bg);
+    color: var(--color-red-dark-text);
+}
+.status-gray {
+    background-color: var(--color-bg);
+    color: var(--color-text-secondary);
+}

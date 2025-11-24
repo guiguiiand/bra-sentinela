@@ -1,0 +1,30 @@
+.header {
+    padding: 1rem 3rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+    background-color: #0e0e0e;
+}
+
+.header-logo {
+    height: 70px;
+    width: auto;
+}
+
+.header nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header .link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: light;
+    font-size: 1rem;
+}

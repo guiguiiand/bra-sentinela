@@ -1,0 +1,18 @@
+.admin-layout {
+    display: flex;
+    height: 100vh;
+    background-color: var(--color-bg);
+    font-family: 'Inter', sans-serif;
+}
+
+.admin-layout-content {
+    flex: 1;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+    .admin-layout-content {
+        padding: 2.5rem;
+    }
+}

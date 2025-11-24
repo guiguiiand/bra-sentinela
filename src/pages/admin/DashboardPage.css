@@ -1,0 +1,33 @@
+.main-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin-bottom: 2rem;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.main-column {
+    grid-column: span 1;
+
+}
+
+.sidebar-column {
+    grid-column: span 1;
+}
+
+@media (min-width: 1024px) {
+    .main-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .main-column {
+        grid-column: span 2;
+    }
+    .sidebar-column {
+        grid-column: span 1;
+    }
+}

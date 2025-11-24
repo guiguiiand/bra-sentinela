@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Protocolo Gerado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .header {
+            background-color: #2196F3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        .protocol-box {
+            background-color: #e3f2fd;
+            padding: 20px;
+            margin: 20px 0;
+            border: 2px dashed #2196F3;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .protocol-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2196F3;
+            letter-spacing: 2px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <div class="header">
+            <h1>✅ Protocolo Gerado</h1>
+        </div>
+
+        <p>Olá <strong th:text="${userName}">Nome do Usuário</strong>,</p>
+
+        <p>Seu protocolo foi gerado com sucesso!</p>
+
+        <div class="protocol-box">
+            <p style="margin: 0; color: #666;">Número do Protocolo:</p>
+            <p class="protocol-number" th:text="${protocolNumber}">2025-11-09-ABC123</p>
+        </div>
+
+        <p><strong>Guarde este número para acompanhar sua reclamação.</strong></p>
+
+        <p>Você pode usar este protocolo para consultar o andamento do seu processo a qualquer momento.</p>
+
+        <div class="footer">
+            <p>Este é um email automático. Por favor, não responda.</p>
+            <p>&copy; 2025 Bra-Sentinela. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

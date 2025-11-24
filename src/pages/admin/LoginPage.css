@@ -1,0 +1,63 @@
+.login-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    color: #eee;
+}
+
+.login-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 2.5rem 3rem;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.login-form h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #eeeeee;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 1.5rem;
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 6px;
+    color: #eee;
+    font-size: 1rem;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #841529;
+    box-shadow: 0 0 0 2px rgba(132, 21, 41, 0.5);
+}
+
+.login-form .cta-button {
+    width: 100%;
+    background-color: #841529;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 1rem;
+}
+
+.login-form .cta-button:hover {
+    background-color: #F80344;
+}

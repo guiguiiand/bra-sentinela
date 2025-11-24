@@ -1,0 +1,123 @@
+.homepage-container {
+    max-width: 100%;
+    padding: 4rem 4rem;
+    line-height: 1.4;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
+    url('../assets/heroImageHomePage.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main-content {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.text-column {
+    flex: 1.5;
+    color: #eee;
+}
+.page-header h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #eeeeee;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.realce-header {
+    font-weight: 100;
+}
+
+.intro-section {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.intro-section p {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: rgba(222, 222, 222, 0.89);
+}
+
+.scenarios-list li {
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 100;
+
+}
+
+.image-column {
+    flex: 1;
+    text-align: center;
+}
+
+.image-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.scenarios-list ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.scenarios-list li {
+    margin-bottom: 0.5rem;
+}
+
+.alert-box {
+    padding: 10px 15px;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.alert-box.warning {
+    background-color: rgba(255, 251, 235, 0.85);
+    border-color: #fde68a;
+    color: #78350f;
+}
+
+.alert-box.info {
+    background-color: #eff6ff;
+    border-color: #bfdbfe;
+    color: #1e40af;
+}
+
+.cta-section {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.cta-button {
+    background-color: #841529;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #F80344;
+}
+
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column-reverse;
+    }
+
+    .cta-section {
+        text-align: center;
+    }
+}

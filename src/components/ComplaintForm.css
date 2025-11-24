@@ -1,0 +1,138 @@
+.complaint-form {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.form-step h2 {
+    color: #E0E0E0;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #C0C0C0;
+}
+
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group input[type="number"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #E0E0E0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+
+.form-group select {
+    padding-right: 30px;
+}
+
+
+.form-group input[type="file"] {
+    color: #C0C0C0;
+    padding: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+.form-row .form-group {
+    flex: 1;
+}
+
+.step-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.step-actions.vertical {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cta-button {
+    background-color: #D32F2F;
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    text-align: center;
+}
+
+.cta-button:hover {
+    background-color: #B71C1C;
+}
+
+.cta-button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+.cta-button.secondary {
+    background-color: transparent;
+    border: 1px solid #777;
+    color: #E0E0E0;
+}
+
+.cta-button.secondary:hover {
+    background-color: #333;
+}
+
+.form-step.success h2 {
+    color: #4CAF50;
+    border-color: #4CAF50;
+}
+.protocol-box {
+    background-color: #2D2D2D;
+    border: 1px dashed #777;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+
+.alert-box.error {
+    background-color: #4d2121;
+    border: 1px solid #d32f2f;
+    color: #f5c6cb;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,95 @@
+.sidebar {
+    width: 256px;
+    background-color: var(--color-sidebar-bg);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    box-shadow: var(--shadow-lg);
+    flex-shrink: 0;
+}
+
+.logo-container {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--color-border-dark);
+}
+.logo-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+}
+.logo-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.nav {
+    flex: 1;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--color-sidebar-text);
+    transition: background-color 0.2s, color 0.2s;
+}
+.nav-link .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.75rem;
+}
+.nav-link:hover {
+    background-color: var(--color-sidebar-bg-hover);
+    color: var(--color-white);
+}
+
+.nav-link-active {
+    background-color: var(--color-sidebar-bg-active);
+    color: var(--color-white);
+    font-weight: 500;
+}
+
+.user-profile {
+    padding: 1rem;
+    border-top: 1px solid var(--color-border-dark);
+}
+.profile-content {
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+    object-fit: cover;
+}
+.profile-info {
+    margin-left: 0.75rem;
+}
+.profile-name {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.logout-button {
+    font-size: 0.75rem;
+    color: #93c5fd;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+}
+.logout-button:hover {
+    color: #e0f2fe;
+}
