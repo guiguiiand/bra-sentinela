@@ -91,7 +91,7 @@ PROJECT_DIR="/home/$SUDO_USER/bra-sentinela"
 
 if [[ ! -d "$PROJECT_DIR" ]]; then
     echo "🔄 Clonando projeto BRA-SENTINELA..."
-    sudo -u "$SUDO_USER" git clone https://github.com/SEU_USUARIO/SEU_REPO.git "$PROJECT_DIR"
+    sudo -u "$SUDO_USER" git clone https://github.com/guiguiiand/bra-sentinela.git"$PROJECT_DIR"
 else
     echo "📁 Projeto já existe em $PROJECT_DIR"
 fi
